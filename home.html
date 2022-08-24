@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page- Live Cricket Scores</title>
+   
+    <style>
+      body {
+        margin: 0%;
+      }
+      #upper {
+        background-color: #0398dc;
+        width: 100%;
+        height: 180px;
+        background-color: 1 px solid red;
+        padding-bottom: 10px;
+      }
+      #upper > div {
+        height: 170px;
+        /* border: 1px solid black; */
+        width: 82%;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
+      }
+      #b1 {
+        height: 20px;
+        font-size: 20px;
+        line-height: 24px;
+        word-spacing: 0px;
+        font-family: sans-serif;
+        /* border: 1px solid red; */
+        width: 99%;
+        margin: auto;
+        display: flex;
+        position: relative;
+        padding-top: 10px;
+      }
+      #b2 {
+        /* border: 1px solid red; */
+        width: 99%;
+        height: 140px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 100%);
+        gap: 10px;
+        padding: 8px 0 0 0;
+      }
+      #b1 > span {
+        font-size: 16px;
+        font-family: sans-serif;
+        line-height: 15.96px;
+        text-decoration: none solid rgb(255, 255, 255);
+        word-spacing: 0px;
+        color: #ffffff;
+        min-height: auto;
+        min-width: auto;
+        vertical-align: middle;
+        cursor: pointer;
+        font-weight: 700;
+        margin-right: 20px;
+      }
+      #b2 > div {
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 12px;
+        word-spacing: 0px;
+        color: #48494a;
+        position: relative;
+        cursor: pointer;
+        display: block;
+        font-weight: 500;
+      }
+      .sp1 > span:nth-child(1) {
+        font-weight: 700;
+        line-height: 20px;
+      }
+      #smallbox {
+        width: 95%;
+        height: 92%;
+        /* border: 1px solid red; */
+        margin: 5px;
+      }
+      .sp1 {
+        /* border: 1px solid red; */
+        height: 23px;
+        width: 95%;
+        margin: auto;
+      }
+      .sp2 > img {
+        height: 25px;
+        margin-right: 10px;
+      }
+      .sp2 {
+        display: flex;
+        /* border: 1px solid red; */
+        height: 23px;
+        width: 95%;
+        margin: auto;
+      }
+      .sp2 > P {
+        font-size: 10px;
+        font-weight: 700;
+      }
+      .sp2 > span {
+        font-weight: 700;
+        line-height: 20px;
+        font-size: 12px;
+        margin-right: 10px;
+      }
+      #navbar {
+        height: 48px;
+        background-color: #03a9f4;
+        width: 100%;
+        display: flex;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        text-decoration: none solid rgb(72, 73, 74);
+        position: sticky;
+        top: 0px;
+        box-sizing: border-box;
+      }
+      #nav_b1{
+        /* border: 1px solid black; */
+        display: flex;
+        width: 138px;
+        margin: 0 40px 0 0;
+        min-height: auto;
+        min-width: auto;
+        height: 48px;
+        margin: 0 100px 0 120px;
+      }
+      #navbar div > img {
+        width: 138px;
+        height: 25px;
+        vertical-align: middle;
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      #nav_b2{
+        /* border: 1px solid black; */
+        height: 48px;
+        width: 1070px;
+        display: flex;
+      }
+      #navbar>div{
+        border: 1px solid teal;
+        display: flex;
+      }
+      #nav_b2>a{
+        padding: 12px 12px 0 12px;
+        display: flex;
+        color: #ffffff;
+        
+      }
+      #nav_b2>div{
+        /* border: 1px solid red; */
+        width: 48px;
+        height: 39px;
+        color: #ffffff;
+        margin: auto;
+        font-size: 25px;
+       text-align: center;
+       padding-top: 10px;
+       cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- *************************************upper section***************************************** -->
+    <div id="upper">
+      <div>
+        <!-- MATCHES -->
+        <div id="b1">
+          <span>Matches (12)</span>
+          <span>Asia Cup QLF (2)</span>
+          <span>Maharaja T20 (2)</span>
+          <span>IXTY (W) (3</span>
+          <span>Women's Hundred (2)</span>
+          <span>Men's Hundred (2)</span>
+          <span>IRE-W in NL (1)</span>
+        </div>
+
+        <div id="b2">
+          <!-- first div -->
+          <div>
+            <div id="smallbox">
+              <div class="sp1">
+                <span>TODAY,5.30 PM</span>
+                <span>.Asia cup ALF</span>
+                <span>.T20I</span>
+                <span>.AI amerat</span>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317119.png"
+                  alt="flag1"
+                />
+                <p>LONDON SPIRIT</p>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317110.jpg"
+                  alt="flag1"
+                />
+                <p>WF-W</p>
+              </div>
+
+              <div class="sp2">
+                <span style="font-size: 14px; margin-top: 5px"
+                  >fire chose to bat</span
+                >
+              </div>
+
+              <div class="sp2">
+                <span>schedule</span>
+                <span>table</span>
+                <span>videos</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- second div -->
+          <div>
+            <div id="smallbox">
+              <div class="sp1">
+                <span>TODAY,5.30 PM</span>
+                <span>.Asia cup ALF</span>
+                <span>.T20I</span>
+                <span>.AI amerat</span>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313144.logo.png"
+                  alt="flag1"
+                />
+                <p>SGP</p>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313158.logo.png"
+                  alt="flag1"
+                />
+                <p>KUW</p>
+              </div>
+
+              <div class="sp2">
+                <span style="font-size: 14px; margin-top: 5px"
+                  >kuwait needs 21 runs in 80 balls</span
+                >
+              </div>
+
+              <div class="sp2">
+                <span>schedule</span>
+                <span>table</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- third div -->
+          <div>
+            <div id="smallbox">
+              <div class="sp1">
+                <span>TODAY,5.30 PM</span>
+                <span>.Asia cup ALF</span>
+                <span>.T20I</span>
+                <span>.AI amerat</span>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/325900/325974.png"
+                  alt="flag1"
+                />
+                <p>BR-W</p>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313136.logo.png"
+                  alt="flag1"
+                />
+                <p>NL-W</p>
+              </div>
+
+              <div class="sp2">
+                <span style="font-size: 14px; margin-top: 5px"
+                  >neeth women needs 260 runs
+                </span>
+              </div>
+
+              <div class="sp2">
+                <span>schedule</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- fourth div -->
+          <div>
+            <div id="smallbox">
+              <div class="sp1">
+                <span>TODAY,5.30 PM</span>
+                <span>.Asia cup ALF</span>
+                <span>.T20I</span>
+                <span>.AI amerat</span>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313482.logo.png"
+                  alt="flag1"
+                />
+                <p>HONG KONG</p>
+              </div>
+
+              <div class="sp2">
+                <img
+                  src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313140.logo.png"
+                  alt="flag1"
+                />
+                <p>ROYALS WOMEN</p>
+              </div>
+
+              <div class="sp2">
+                <span style="font-size: 14px; margin-top: 5px"
+                  >match starts in 1 hour 20 minutes</span
+                >
+              </div>
+
+              <div class="sp2">
+                <span>schedule</span>
+                <span>table</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- **************************************navbar section******************************************* -->
+    <div id="navbar">
+      <div>
+        <div id="nav_b1">
+          <img
+            src="https://wassets.hscicdn.com/static/images/logo.png"
+            alt="crincinfo"
+          />
+        </div>
+
+        <div id="nav_b2">
+          <a href="">Live Scores</a>
+          <a href="">Series</a>
+          <a href="">Teams</a>
+          <a href="">News</a>
+          <a href="">Features</a>
+          <a href="">videos</a>
+          <a href="">Stats</a>
+          <a href=""></a>
+          
+          <a href="">Fantasy</a>
+          <a href="">Ediion IN</a>
+
+          <div><i class="fa-solid fa-moon"></i></div>
+          <div><i class="fa-solid fa-bell"></i></div>
+          <div><i class="fa-solid fa-language"></i></div>
+          <div><i class="fa-solid fa-list"></i></div>
+          <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    <div id="bb"></div>
+    #bb{
+        height: 3000px;
+        border: 1px solid red;
+        width: 80%;
+        margin: auto;
+      } -->
+  </body>
+  <script
+  src="https://kit.fontawesome.com/24c494a6b6.js"
+  crossorigin="anonymous"
+></script>
+</html>
