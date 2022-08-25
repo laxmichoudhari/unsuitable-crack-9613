@@ -5,174 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page- Live Cricket Scores</title>
-   
-    <style>
-      body {
-        margin: 0%;
-      }
-      #upper {
-        background-color: #0398dc;
-        width: 100%;
-        height: 180px;
-        background-color: 1 px solid red;
-        padding-bottom: 10px;
-      }
-      #upper > div {
-        height: 170px;
-        /* border: 1px solid black; */
-        width: 82%;
-        margin: auto;
-        padding: 0px 20px 0px 20px;
-      }
-      #b1 {
-        height: 20px;
-        font-size: 20px;
-        line-height: 24px;
-        word-spacing: 0px;
-        font-family: sans-serif;
-        /* border: 1px solid red; */
-        width: 99%;
-        margin: auto;
-        display: flex;
-        position: relative;
-        padding-top: 10px;
-      }
-      #b2 {
-        /* border: 1px solid red; */
-        width: 99%;
-        height: 140px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(1, 100%);
-        gap: 10px;
-        padding: 8px 0 0 0;
-      }
-      #b1 > span {
-        font-size: 16px;
-        font-family: sans-serif;
-        line-height: 15.96px;
-        text-decoration: none solid rgb(255, 255, 255);
-        word-spacing: 0px;
-        color: #ffffff;
-        min-height: auto;
-        min-width: auto;
-        vertical-align: middle;
-        cursor: pointer;
-        font-weight: 700;
-        margin-right: 20px;
-      }
-      #b2 > div {
-        /* border: 1px solid black; */
-        border-radius: 10px;
-        background-color: #ffffff;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        line-height: 12px;
-        word-spacing: 0px;
-        color: #48494a;
-        position: relative;
-        cursor: pointer;
-        display: block;
-        font-weight: 500;
-      }
-      .sp1 > span:nth-child(1) {
-        font-weight: 700;
-        line-height: 20px;
-      }
-      #smallbox {
-        width: 95%;
-        height: 92%;
-        /* border: 1px solid red; */
-        margin: 5px;
-      }
-      .sp1 {
-        /* border: 1px solid red; */
-        height: 23px;
-        width: 95%;
-        margin: auto;
-      }
-      .sp2 > img {
-        height: 25px;
-        margin-right: 10px;
-      }
-      .sp2 {
-        display: flex;
-        /* border: 1px solid red; */
-        height: 23px;
-        width: 95%;
-        margin: auto;
-      }
-      .sp2 > P {
-        font-size: 10px;
-        font-weight: 700;
-      }
-      .sp2 > span {
-        font-weight: 700;
-        line-height: 20px;
-        font-size: 12px;
-        margin-right: 10px;
-      }
-      #navbar {
-        height: 48px;
-        background-color: #03a9f4;
-        width: 100%;
-        display: flex;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 24px;
-        text-decoration: none solid rgb(72, 73, 74);
-        position: sticky;
-        top: 0px;
-        box-sizing: border-box;
-      }
-      #nav_b1{
-        /* border: 1px solid black; */
-        display: flex;
-        width: 138px;
-        margin: 0 40px 0 0;
-        min-height: auto;
-        min-width: auto;
-        height: 48px;
-        margin: 0 100px 0 120px;
-      }
-      #navbar div > img {
-        width: 138px;
-        height: 25px;
-        vertical-align: middle;
-        /* border: 1px solid red; */
-        margin-top: 10px;
-        cursor: pointer;
-      }
-      #nav_b2{
-        /* border: 1px solid black; */
-        height: 48px;
-        width: 1070px;
-        display: flex;
-      }
-      #navbar>div{
-        border: 1px solid teal;
-        display: flex;
-      }
-      #nav_b2>a{
-        padding: 12px 12px 0 12px;
-        display: flex;
-        color: #ffffff;
-        
-      }
-      #nav_b2>div{
-        /* border: 1px solid red; */
-        width: 48px;
-        height: 39px;
-        color: #ffffff;
-        margin: auto;
-        font-size: 25px;
-       text-align: center;
-       padding-top: 10px;
-       cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="home.css" />
   </head>
+
   <body>
     <!-- *************************************upper section***************************************** -->
     <div id="upper">
@@ -367,7 +202,7 @@
           <a href="">videos</a>
           <a href="">Stats</a>
           <a href=""></a>
-          
+
           <a href="">Fantasy</a>
           <a href="">Ediion IN</a>
 
@@ -380,17 +215,451 @@
       </div>
     </div>
 
-    <!-- 
-    <div id="bb"></div>
-    #bb{
-        height: 3000px;
-        border: 1px solid red;
-        width: 80%;
-        margin: auto;
-      } -->
+    <!-- ******************************************bottom section************************************************** -->
+    <div id="parent">
+      <!-- add box -->
+      <div id="add">
+        <img
+          src="https://tpc.googlesyndication.com/simgad/10926761020657163993?"
+          alt="ASK CRICINFO"
+        />
+      </div>
+
+      <!-- info boxces -->
+      <div id="info">
+        <!-- first box -->
+        <div id="first">
+          <div>
+            <img
+              src="https://wassets.hscicdn.com/static/images/nlp-logo.svg"
+              alt="ask a question"
+            /><br />
+            <span
+              >which better has the hioghest average in men's ODIs (min 30
+              innings)?
+            </span>
+            <section>
+              <i class="fa-solid fa-magnifying-glass"></i> Ask a question
+            </section>
+          </div>
+
+          <div>
+            <span>Key Series</span>
+            <hr />
+            <ul type="none">
+              <li><i class="fa-solid fa-greater-than"></i>Asia Cup QLF</li>
+              <li><i class="fa-solid fa-greater-than"></i>Asia Cup</li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>England vs South Africa
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Australia vs Zimbabwe
+              </li>
+              <li><i class="fa-solid fa-greater-than"></i>The Hundres(M)</li>
+              <li><i class="fa-solid fa-greater-than"></i>The Hundred(W)</li>
+              <li><i class="fa-solid fa-greater-than"></i>County Div 1</li>
+              <li><i class="fa-solid fa-greater-than"></i>County Div 2</li>
+              <li><i class="fa-solid fa-greater-than"></i>6Ixty (M)</li>
+              <li><i class="fa-solid fa-greater-than"></i>6Ixty (W)</li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Womens Championship
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>World test Championship
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>World cup suger league
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <span>Quick Links</span>
+            <hr />
+            <ul type="none">
+              <li><i class="fa-solid fa-greater-than"></i>T 20 Time out</li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>T 20 Time out Hindi
+              </li>
+              <li><i class="fa-solid fa-greater-than"></i>ICC Rankings</li>
+              <li><i class="fa-solid fa-greater-than"></i>Fantasy Pick</li>
+              <li><i class="fa-solid fa-greater-than"></i>Hann Ya Naa</li>
+            </ul>
+          </div>
+
+          <div>
+            <span>ESPN cricinfo app</span>
+            <hr />
+            <ul type="none">
+              <li><i class="fa-solid fa-greater-than"></i>Android App</li>
+              <li><i class="fa-solid fa-greater-than"></i>iOS App</li>
+            </ul>
+          </div>
+
+          <div>
+            <span>Follow ESPN cricinfo</span>
+            <hr />
+            <ul type="none">
+              <li><i class="fa-solid fa-greater-than"></i>Instagram</li>
+              <li><i class="fa-solid fa-greater-than"></i>Twitter</li>
+              <li><i class="fa-solid fa-greater-than"></i>Facebook</li>
+              <li><i class="fa-solid fa-greater-than"></i>Youtube</li>
+            </ul>
+          </div>
+
+          <div>
+            <span>ESPN Sites</span>
+            <hr />
+            <ul type="none">
+              <li>
+                <i class="fa-solid fa-greater-than"></i>The Cricket Monthly
+              </li>
+              <li><i class="fa-solid fa-greater-than"></i>ESPN</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- middle box -->
+        <div id="middle">
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/344600/344663.6.jpg"
+              alt="virat kohli"
+            />
+            <h1>Live South Africa bat and pick two spinners</h1>
+            <p>
+              simon harmer has come into their XI for macro jansen strokes
+              madcap methods enter acid test amid mixed results with the bat
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/334200/334283.6.jpg"
+              alt="kuldeep"
+            />
+            <h1>
+              Posters for india: The same old top three? pant or kartik, or
+              both?
+            </h1>
+            <p>
+              A few wrinkle still remain to be ironed out in india's positive
+              approach in T20's wriye <b>kartik Krishnaswamy</b>
+            </p>
+          </div>
+
+          <div>
+            <h4>NEW ZEALAND NEWS</h4>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340200/340208.6.jpg"
+              alt="new zealand"
+            />
+            <h1>Trent Bolt hopping he's not done with Test cricket just yet</h1>
+            <p>
+              Bowler also eyening 2023 odi world cup, despite having given up
+              NZC contract
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/327300/327310.6.jpg"
+              alt="kuldeep"
+            />
+            <h1>
+              boult retains spot, sears and henry included for chappel-haddle
+              ODIS
+            </h1>
+            <p>
+              Kyle jameison (back) and adam milne(achilles) ware'nt considered
+              due to injury.
+            </p>
+          </div>
+
+          <div>
+            <h4>COUNTY championship 2022</h4>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/341900/341947.6.jpg"
+              alt="new zealand"
+            />
+            <h1>Gill set for maiden county stint with Glamorgan</h1>
+            <p>
+              He will play the remainder of the session subject to visa
+              clearance
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/342800/342831.6.jpg"
+              alt="kohli"
+            />
+            <h1>Two factors that might have played a role in Kohli's slump</h1>
+            <p>
+              His rough patch has a latest a lot longer than anyone might have
+              imagined.
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/344700/344726.6.jpg"
+              alt="kohli"
+            />
+            <h1>
+              Welsh find unwanted consistency amid relentless record blitzz
+            </h1>
+            <p>
+              fire self immotation has become familer despite the hundreds
+              inherant volatily <b>cameron ponsoby</b>writes.
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/315100/315101.6.jpg"
+              alt="kohli"
+            />
+            <h1>Lynn signs 11-GAME stickers deal to spilt time with ILT-20</h1>
+            <p>
+              He will be granted on NOC by cricket australia to play in the UAE
+              from january 20.
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/344000/344094.6.jpg"
+              alt="kohli"
+            />
+            <h1>
+              Agrawal ticketing all boxces to give white-ball game a thrust
+            </h1>
+            <p>
+              "I will be very happy whatever comes my way. but the aspirations
+              and dreams never die"
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/344700/344712.6.jpg"
+              alt="kohli"
+            />
+            <h1>Womwns hundred shows sports evoluation on fast forward.</h1>
+            <p>
+              Even dead rubbers are hugely imprtant for players seeking
+              opportunities <b>cameron ponsoby</b> writes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Last box -->
+        <div id="last">
+          <div>
+            <span>News Headlines</span>
+            <hr />
+            <ul type="none">
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Boult hoipng he's not
+                done with tests
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Domingo denies reports
+                of this resignation
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>ICC eyes $4 billion-plus
+                for media rights
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Lynn signs 11-game
+                stickers BBL deal
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Shubham gill set to play
+                fot glamorgan
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Buzz: Rizwan shows off
+                his shots
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <img
+              src="https://tpc.googlesyndication.com/simgad/15693210795370267328?"
+              alt="win 5 lakh"
+            />
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/294000/294030.jpg"
+              alt="epic"
+            />
+            <h4 style="margin-top: 5px">On This Day:strokes 'headingly epic</h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/344600/344603.png"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">Quote Unquote: whos saying what?</h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/342200/342284.6.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">Photo feature: helmets</h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/344500/344554.6.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">The latest cricket photos</h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/151100/151163.3.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">
+              The 'real value' of wickets: can anyone match McGrath?
+            </h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/336000/336034.6.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">Who does it best in womens cricket?</h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340500/340544.6.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">photo feature</h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/318700/318789.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">
+              Records index: most runs, most wickets, and a lot more
+            </h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340200/340228.6.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">
+              Temba Bavuma: ' I understand influence better around me'
+            </h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/339900/339937.6.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">
+              Rankings: who's leading in every format
+            </h4>
+          </div>
+
+          <div>
+            <img
+              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/222300/222305.11.jpg"
+              alt="quote"
+            />
+            <h4 style="margin-top: 5px">
+              Taufel: can't solve odd grey area by replacing with technology
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- **********************************footer section***************************************  -->
+    <footer>
+      <div id="foot">
+        <div>
+          <h1>Key series</h1>
+          <ul type="none">
+            <li>Asia Cup QLF</li>
+            <li>Asia Cup</li>
+            <li>England vs South Africa</li>
+            <li>Australia vs Zimbabwe</li>
+            <li>The Hundres(M)</li>
+            <li>The Hundred(W)</li>
+            <li>County Div 1</li>
+            <li>County Div 2</li>
+            <li>6Ixty (M)</li>
+            <li>6Ixty (W)</li>
+            <li>Womens Championship</li>
+            <li>World test Championship</li>
+            <li>World cup suger league</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1>Quick Links</h1>
+          <ul type="none">
+            <li>T 20 Time out</li>
+            <li>T 20 Time out Hindi</li>
+            <li>ICC Rankings</li>
+            <li>Fantasy Pick</li>
+            <li>Hann Ya Naa</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1>ESPN cricinfo app</h1>
+          <ul type="none">
+            <li>Android App</li>
+            <li>iOS App</li>
+          </ul>
+        </div>
+        
+        <div>
+          <h1>Follow ESPN cricinfo</h1>
+          <ul type="none">
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1>ESPN Sites</h1>
+          <ul type="none">
+            <li>The Cricket Monthly</li>
+            <li>ESPN</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
   </body>
+
   <script
-  src="https://kit.fontawesome.com/24c494a6b6.js"
-  crossorigin="anonymous"
-></script>
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
