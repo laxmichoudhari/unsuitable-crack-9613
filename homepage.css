@@ -132,11 +132,6 @@
     height: 48px;
     margin: 0 100px 0 120px;
   }
-  #nav_b1>a>img{
-    height: 25px;
-    width: 90%;
-    margin-top: 10px;
-  }
   #navbar div > img {
     width: 138px;
     height: 25px;
@@ -369,7 +364,6 @@
   }
   #middle>div>img:hover{
     transform: scale(0.9); 
-    
   }
   #middle > div > h1 {
     font-size: 23px;
