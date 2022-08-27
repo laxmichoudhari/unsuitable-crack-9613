@@ -128,7 +128,7 @@
     },
     {
       image_url:
-        "hhttps://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313341.logo.png",
+        "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313341.logo.png",
       name: "Pakistan Women",
     },
     // third row

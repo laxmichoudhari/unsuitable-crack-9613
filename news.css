@@ -161,6 +161,9 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+#nav_b2>a:hover{
+  background-color: #0398dc;;
+}
 #nav_b2 > div {
   /* border: 1px solid red; */
   width: 10px;
@@ -171,6 +174,9 @@ body {
   text-align: center;
   padding-top: 10px;
   cursor: pointer;
+}
+#nav_b2>div:hover{
+  background-color: #0398dc;;
 }
 
 /* second navbar styles */
