@@ -156,17 +156,26 @@
     color: #ffffff;
     text-decoration: none;
   }
+  #nav_b2>button>i{
+    color: #ffffff;
+  }
+  #nav_b2>a:hover{
+    background-color: #0398dc;;
+  }
   
   #nav_b2 > div {
     /* border: 1px solid red; */
-    width: 10px;
+    width: 40px;
     height: 39px;
     color: #ffffff;
     margin: auto;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     padding-top: 10px;
     cursor: pointer;
+  }
+  #nav_b2>div:hover{
+    background-color: #0398dc;;
   }
 
   /* *******************************bottom section styles***************************************** */
@@ -445,6 +454,8 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 10px;
     background-color: white;
+    background-color: var(--body-color);
+    color: var(--text-color);
      
   }
   #foot>div{
@@ -463,3 +474,40 @@
     margin-left: -38px;
     line-height: 35px
   }
+
+
+  
+  /* dark-theme styles */
+  :root{
+    --hue : 256;
+    --sat : 66%;
+    --lig : 75%;
+
+    --text-color : hsl(var(var(--hue)), 12% , 15%)
+    --body-color : hsl(var(var(--hue)), 8% , 92%)
+    --container-color : red;
+}
+
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+    /* transition: 0.3s all ease-in-out; */
+    /* overflow: hidden; */
+
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.change-theme{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+body.dark-theme{
+    --text-color :hsl(var(--hue), 12%, 95%);
+    --body-color :hsl(var(--hue), 40%, 8%);
+    --container-color :hsl(var(--hue), 24%, 12%);
+}
