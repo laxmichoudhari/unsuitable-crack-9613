@@ -122,6 +122,8 @@ body {
     top: 0px;
     box-sizing: border-box;
     font-weight: 700;
+    /* background-color: var(--body-color);
+    color: var(--text-color); */
   }
   #nav_b1 {
     /* border: 1px solid black; */
@@ -162,6 +164,9 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
+  #nav_b2>button>i{
+    color: #ffffff;
+  }
   #nav_b2>a:hover{
     background-color: #0398dc;;
   }
@@ -179,6 +184,8 @@ body {
   #nav_b2>div:hover{
     background-color: #0398dc;;
   }
+  
+  
 
   /* *******************************bottom section styles***************************************** */
   #parent {
@@ -333,4 +340,37 @@ margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+/* * * dark-theme styles */ */
+:root{
+  --hue : 256;
+  --sat : 66%;
+  --lig : 75%;
 
+  --text-color : hsl(var(var(--hue)), 12% , 15%)
+  --body-color : hsl(var(var(--hue)), 8% , 92%)
+  --container-color : red;
+}
+
+body{
+  background-color: var(--body-color);
+  color: var(--text-color);
+  /* transition: 0.3s all ease-in-out; */
+  /* overflow: hidden; */
+
+}
+
+button{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.change-theme{
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+body.dark-theme{
+  --text-color :hsl(var(--hue), 12%, 95%);
+  --body-color :hsl(var(--hue), 40%, 8%);
+  --container-color :hsl(var(--hue), 24%, 12%);
+}
